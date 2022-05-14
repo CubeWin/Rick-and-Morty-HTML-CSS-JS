@@ -1,0 +1,98 @@
+.cw__personaje--background {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e4ebf1;
+}
+.cw__personaje--decorator {
+    font-family: "Noto-SansMono";
+    position: absolute;
+    max-width: 100%;
+    padding-left: 50px;
+    z-index: 0;
+    /* top: calc(50% - 200px); */
+    bottom: 50px;
+    left: 0;
+    overflow: hidden;
+}
+
+.cw__decorator--name {
+    font-size: 7em;
+    color: #eff2f9;
+    /* color: #fafbff; */
+    height: auto;
+    text-align: center;
+    letter-spacing: 25px;
+    font-weight: bold;
+    text-shadow: -5px -5px 30px #fafbff, 5px 5px 30px rgba(22, 24, 29, 0.23);;
+}
+
+.cw__personaje--text{
+    color: #6e7f8d;
+    font-family: "Noto-SansMono";
+    text-align: center;
+}
+
+.cw__personaje--botones{
+    position: fixed;
+    width: 150px;
+    height: auto;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 3;
+}
+.cw__personaje--arrow{
+    text-decoration: none;
+    color: #6e7f8d;
+    width: 50px !important;
+    height: 50px !important;
+    padding: 15px;
+    margin: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff2f9;
+    transition: box-shadow 0.5s ease;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.cw__personaje--arrow:hover{
+    box-shadow: -10px -10px 30px rgba(22, 24, 29, 0.1), 10px 10px 20px #fafbff;
+    color: #be2623;
+    border-color: rgba(14, 55, 70, 0.1);
+}
+.cw__disable--arrow{
+    color: rgba(69, 77, 83, 0.1);
+}
+.cw__disable--arrow:hover{
+    color: rgba(69, 77, 83, 0.1);
+}
+
+.cw__personaje--busqueda{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 3;
+}
+.cw__return--search{
+    font-family: "Noto-SansMono";
+    text-decoration: none;
+    color: #6e7f8d;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff2f9;
+    border: 2px solid transparent;
+    transition: box-shadow 0.5s ease;
+    border-radius: 25px;
+}
+.cw__return--search:hover{
+    box-shadow: -10px -10px 30px rgba(22, 24, 29, 0.1), 10px 10px 20px #fafbff;
+    color: #be2623;
+    border-color: rgba(14, 55, 70, 0.1);
+}
