@@ -1,19 +1,19 @@
 @font-face {
     font-family: "Audiowide";
-    src: url("http://192.168.0.8:5500/assets/fonts/Audiowide-Regular.ttf");
+    src: url("./assets/fonts/Audiowide-Regular.ttf");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Open-Sans";
-    src: url("http://192.168.0.8:5500/assets/fonts/OpenSans-Regular.ttf");
+    src: url("./assets/fonts/OpenSans-Regular.ttf");
     font-style: normal;
 }
 
 @font-face {
     font-family: "Noto-SansMono";
-    src: url("http://192.168.0.8:5500/assets/fonts/NotoSansMono-VariableFont_wdth,wght.ttf");
+    src: url("./assets/fonts/NotoSansMono-VariableFont_wdth,wght.ttf");
     font-style: normal;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .cw__img--overflow {
-    background-image: url(http://192.168.0.8:5500/assets/img/duo.webp);
+    background-image: url(./assets/img/duo.webp);
     background-position: center;
     background-size: cover;
     width: 100%;

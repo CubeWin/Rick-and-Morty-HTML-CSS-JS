@@ -38,7 +38,7 @@ const callmer = async () => {
                             </p>
                         </div>
                         <div class="cw__card--id">${p.id}</div>
-                        <a href="http://192.168.0.8:5500/personaje/?id=${p.id}" class="cw__card--btn">
+                        <a href="./personaje/?id=${p.id}" class="cw__card--btn">
                             <i class="fa fa-search"></i>
                         </a>
                     </div>
